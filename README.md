@@ -1,4 +1,12 @@
 # eth-avax_module-3
+AnyToken Contract
+
+License This contract is using the MIT License.
+
+Prerequisites Solidity ^0.8.9
+
+Contract Details: The contract imports three contracts from the OpenZeppelin library:
+
 ERC20: This is the standard ERC20 token contract implementation, providing basic functionality for a fungible token. ERC20Burnable: This contract extends ERC20 and adds the ability to burn (destroy) tokens. Ownable: This contract provides a basic access control mechanism, allowing only the contract owner to execute certain functions. The CustomToken contract is defined and inherits from ERC20, ERC20Burnable, and Ownable.
 
 The constructor function is defined without any parameters. It is executed once when the contract is deployed. Within the constructor, the ERC20 constructor is called with the name "MyToken" and symbol "MyTk" to initialize the token.
